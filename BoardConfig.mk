@@ -107,4 +107,3 @@ BOARD_USES_BML_OVER_MTD := true
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/fascinatemtd/shbootimg.mk
 TARGET_RECOVERY_PRE_COMMAND := "echo 1 > /cache/.startrecovery; sync;"
 
-TARGET_OTA_ASSERT_DEVICE := aries,fascinate,fascinatemtd,SCH-I500
